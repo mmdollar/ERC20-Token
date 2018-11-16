@@ -99,7 +99,7 @@ contract ExampleToken is ERC20Interface, Owned {
 
     // Constructor
     constructor() public {
-        symbol = "BSU";
+        symbol = "BFU";
         name = "Burgas Free University";
         decimals = 18;
         bonusEnds = now + 1 weeks;
